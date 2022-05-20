@@ -1,0 +1,60 @@
+  .flex-container {
+      display: flex;
+      background-color: blue;
+      /* aligning the flex items */
+      /* justify-content: center; */
+      /* justify-content: flex-end; */
+      /* justify-content: space-around; */
+      justify-content: space-between;
+  }
+  .flex-container div {
+      background-color: white;
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+  }
+  .flex-container2 {
+      display: flex;
+      /* background-color: aqua; */
+      border: 1px solid red;
+      /* padding: 200px; */
+      flex-direction: column;
+      /* flex-direction: row; */
+      /* justify-content: center; */
+
+  }
+  .flex-container2 div {
+      margin: 10px;
+      padding: 20px;
+      /* background-color: brown; */
+      border: 2px solid black;
+      font-size: 30px;
+      width: 80px;
+  }
+  .flex-container3 {
+      display: flex;
+      border: 3px solid rebeccapurple;
+      flex-wrap: wrap;
+      /* flex-direction: column; */
+  }
+  .flex-container3 div {
+      margin: 10px;
+      border: 2px solid red;
+      padding: 20px;
+      /* width: 80px; */
+  }
+  .flex-container4 {
+      display: flex;
+      background-color: blue;
+      height: 100px;
+      /* align-items: center; */
+      align-items: flex-end;
+      /* align-items: flex-start; */
+      /* align-items: stretch; */
+  }
+  .flex-container4 div {
+      background-color: white;
+      margin: 10px;
+      padding: 20px;
+      /* height: 5px; */
+  }

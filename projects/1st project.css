@@ -1,0 +1,40 @@
+  .hero-image {
+      background-image: url(images/pexels-andre-furtado-1264210.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: #cccccc;
+      height: 500px;
+      /* background-position: center center; */
+      position: relative;
+      border: 2px solid black;
+      background-attachment: fixed;
+      background-clip: padding-box;
+  }
+
+  .hero-text {
+      text-align: center;
+      color: white;
+      position: absolute;
+      top: 40%;
+      right: 40%;
+      /* transform: translate(0px, 250px); */
+  }
+
+  .hero-text button {
+      padding: 5px;
+      color: red;
+      background-color: black;
+      border-radius: 20px;
+      border-bottom-color: aqua;
+      border-top-color: palegreen;
+      border-left-color: blue;
+      border-right-color: blueviolet;
+      border-style: dotted;
+  }
+
+  .hero-text button:hover {
+      color: #a89e32;
+      background-color: #329aa8;
+  }
+      
+  

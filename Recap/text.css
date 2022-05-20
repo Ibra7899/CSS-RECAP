@@ -1,0 +1,38 @@
+ 
+ 
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+ .navbar {
+     /* border: 2px solid red; */
+     text-align: center;
+     background-color: black;
+     padding: 10px;
+     display: block;
+ }
+ .navbar a {
+     text-decoration: none;
+     margin: 5px;
+     text-align-last: right;
+     color: white;
+     /* word-spacing: 20px; */
+ }
+ .navbar a:hover {
+     color: red;
+     background-color: blue;
+     border-radius: 5px;
+     border: 2px solid aqua;
+ }
+ .text {
+     border: 2px solid red;
+     text-align: left;
+     text-decoration: underline;
+     text-decoration-color: aqua;
+     
+ }
+ .text2 {
+     border: 2px solid blue;
+     text-align: justify;
+     /* width: 500px; */
+ }
